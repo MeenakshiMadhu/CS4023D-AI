@@ -10,7 +10,7 @@ def moveFunction(env, pos):
     print("\n---------------------------------------------------------")
     print("Environment : "+str(env)+"\tStart Position : "+str(pos))
     print("\nStarting simulation...")
-    for i in range(5):
+    for i in range(1000):
         if env[pos] == 1:
             # print("Dirty Room scanned at "+str(pos)+". Cleaned Room.")
             env[pos] = 0
